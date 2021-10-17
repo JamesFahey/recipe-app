@@ -1,6 +1,16 @@
-.search-bar {
-    position: relative;
-    display: flex;
+body {
+    font-family: sans-serif;
+}
+
+.text-center {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.slogan {
+    font-size: 200%;
+    font-family: Sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    color: #65a765;
 }

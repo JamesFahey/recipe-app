@@ -11,34 +11,59 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Recipes For You</a>
-            </li>
-          </ul>
-    </div>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/main-image.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #65a765;">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color:#fff" href="#">Meals For You</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style="color:#fff" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#fff" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color:#fff" href="#">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
       </div>
+    </div>
+  </nav>
+  <div class="slogan">
+    <h1>Make Meal Time Easy</h1>
+  </div>
+  <!-- <div class="text-center">
+    <img src="images/main-image.jpg" class="rounded" alt="...">
+  </div> -->
 
     <div>
-      <div class="search-bar col-6 offset-3">
-        <input type="text" class="form-control" placeholder="Search recipe here" aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="images/card-image1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="images/card-image2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
