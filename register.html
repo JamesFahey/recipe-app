@@ -23,10 +23,10 @@
                 <a class="nav-link" style="color:#fff" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" style="color:#fff" href="login.html">Login</a>
+                <a class="nav-link" style="color:#fff" href="login.html">Login</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:#fff" href="register.html">Register</a>
+                <a class="nav-link active" aria-current="page" style="color:#fff" href="register.html">Register</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
@@ -36,6 +36,14 @@
         </div>
       </nav>
       <form class="row g-3">
+        <div class="col-md-3 offset-3">
+          <label for="inputFirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" aria-label="First name">
+        </div>
+        <div class="col-md-3">
+          <label for="inputLastName" class="form-label">Last Name</label>  
+          <input type="text" class="form-control" aria-label="Last name">
+        </div>
         <div class="col-6 offset-3">
             <label for="inputEmail4" class="form-label">Email</label>
             <input type="email" class="form-control" id="inputEmail4">
@@ -45,7 +53,7 @@
             <input type="password" class="form-control" id="inputPassword4">
           </div>
           <div class="col-6 offset-3">
-            <button type="submit" class="btn btn-primary">Sign In</button>
+            <button type="submit" class="btn btn-primary">Register</button>
           </div>
         </form>
   
