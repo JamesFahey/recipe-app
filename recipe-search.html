@@ -37,8 +37,16 @@
       </nav>
       
   <div class="recipe-search col-6 offset-3">
+          {% if name %}
+            <center>
+              <h3 style="color: blue;" class="let_space">Hello {{name}}, How was your day!!</h3>
+            </center> 
+
+          {% endif %}
   <input type="text" class="form-control" placeholder="Search Recipe Here" aria-label="Search Recipe Here" aria-describedby="button-addon2">
   <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+
+  
 </div>
   
 </body>
